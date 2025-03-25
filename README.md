@@ -6,12 +6,13 @@ Each project includes well-documented code, datasets, insights, and visualizatio
 ***
 ## ***Project List***
 
+---
 
 ### ***Optimize Power Consumption in Wellington, New Zealand***
 A detailed analysis of environmental and meteorological factors to optimize power consumption in Zone 1 of Wellington.
 - `Technologies:` Python, Pandas, Scikit-learn, XGBoost, Power BI
 - `Key Skills:` Time Series Analysis, Regression Modeling, Data Visualization
-- `Project Link:` <a href='https://github.com/namankamble/Projects/tree/main/Optimize%20Power%20Consumption%20in%20Wellington%2C%20New%20Zealand'>Optimize_Power_Consumption</a>
+- `Project Link:` Optimize_Power_Consumption
 
 ---
 
