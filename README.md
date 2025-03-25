@@ -42,10 +42,10 @@ Investigated key factors influencing students' university preferences in the Uni
 
 ### ***Tech Stack and Tools***
 - `Programming Languages:` Python, SQL
-- `Libraries and Frameworks:` Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost, TensorFlow
+- `Libraries and Frameworks:` Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow
 - `Data Visualization:` Power BI, Plotly
-- `Databases:` MySQL, PostgreSQL, NoSQL
-- `Other Tools:` Jupyter Notebook, Git, GitHub
+- `Databases:` MSSQL Server, MySQL, NoSQL
+- `Other Tools:` Jupyter Notebook, VS Code, databricks, Git, GitHub
 
 ---
 
