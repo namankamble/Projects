@@ -4,7 +4,7 @@
 
 This project focuses on optimizing power consumption in Zone 1 of Wellington, New Zealand, based on various environmental and meteorological factors. By leveraging data analysis and machine learning techniques, the goal is to identify patterns, predict energy usage, and develop data-driven solutions to improve efficiency.
 
-***Objectives:***
+### ***Objectives:***
 
 - Analyze historical power consumption data in Zone 1.
 
@@ -14,7 +14,7 @@ This project focuses on optimizing power consumption in Zone 1 of Wellington, Ne
 
 - Provide actionable insights for energy efficiency improvements.
 
-***Technologies Used:***
+### ***Technologies Used:***
 
 - Programming Languages: Python
 
@@ -26,7 +26,7 @@ This project focuses on optimizing power consumption in Zone 1 of Wellington, Ne
 
 - Databases: SQL, NoSQL
 
-***Project Workflow:***
+### ***Project Workflow:***
 
 `Data Collection & Preprocessing:`
 
