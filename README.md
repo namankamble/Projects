@@ -52,5 +52,5 @@ Investigated key factors influencing students' university preferences in the Uni
 ### ***How to Use***
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/Projects.git
+   git clone [https://github.com/your-username/Projects.git](https://github.com/namankamble/Projects.git)
    cd Projects
