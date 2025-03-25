@@ -5,7 +5,9 @@ Each project includes well-documented code, datasets, insights, and visualizatio
 ***
 ***
 ### ***Project List***
-***
+
+---
+
 #### ***Optimize Power Consumption in Wellington, New Zealand***
 A detailed analysis of environmental and meteorological factors to optimize power consumption in Zone 1 of Wellington.
 - Technologies: Python, Pandas, Scikit-learn, XGBoost, Power BI
