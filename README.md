@@ -20,7 +20,7 @@ A detailed analysis of environmental and meteorological factors to optimize powe
 Developed a machine learning model to predict customer purchasing decisions based on various features.
 - `Technologies:` Python, Scikit-learn, NumPy, Pandas
 - `Key Skills:` Classification, Feature Engineering, Model Evaluation
-- `Project Link:` <a href='https://github.com/namankamble/Customer-Churn-Prediction-Using-Machine-Learning'>Predict_Customer_Purchase</a>
+- `Project Link:` <a href='https://github.com/namankamble/Customer-Churn-Prediction-Using-Machine-Learning' style="font-style: italic; text-decoration: none; color: white;">Predict_Customer_Purchase</a>
 
 ---
 
@@ -28,7 +28,7 @@ Developed a machine learning model to predict customer purchasing decisions base
 Performed an in-depth exploratory data analysis on retail sales data to identify trends, seasonality, and top-selling products.
 - `Technologies:` Pandas, Matplotlib, Seaborn, Power BI
 - `Key Skills:` Exploratory Data Analysis, Visualization, Business Insights
-- `Project Link:` <a href='https://github.com/namankamble/Retail-Sales-Analysis-for-Chain-Stores'>Retail_Sales_Analysis</a>
+- `Project Link:` <a href='https://github.com/namankamble/Retail-Sales-Analysis-for-Chain-Stores' style="font-style: italic; text-decoration: none; color: white;">Retail_Sales_Analysis</a>
 
 ---
 
@@ -36,7 +36,7 @@ Performed an in-depth exploratory data analysis on retail sales data to identify
 Investigated key factors influencing students' university preferences in the United States.
 - `Technologies:` Python, Pandas, Seaborn, Matplotlib
 - `Key Skills:` Data Cleaning, Feature Selection, Statistical Analysis
-- `Project Link:` <a href='https://github.com/namankamble/ANALYSIS-OF-UNIVERSITIES-WHAT-MAKES-A-STUDENT-PREFER-A-UNIVERSITY'>University_Analysis</a>
+- `Project Link:` <a href='https://github.com/namankamble/ANALYSIS-OF-UNIVERSITIES-WHAT-MAKES-A-STUDENT-PREFER-A-UNIVERSITY' style="font-style: italic; text-decoration: none; color: white;">University_Analysis</a>
 
 ---
 
