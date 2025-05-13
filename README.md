@@ -8,6 +8,14 @@ Each project includes well-documented code, datasets, insights, and visualizatio
 
 ---
 
+### ***Airline Customer Satisfaction Prediction***
+A machine learning project to analyze customer feedback and predict satisfaction levels based on inflight services, staff behavior, and overall flight experience.
+- `Technologies:` Python, Pandas, Plotly, Scikit-learn, XGBoost
+- `Key Skills:` Classification Modeling, Feature Engineering, Data Preprocessing, Data Visualization
+- `Project Link:` <a href='https://github.com/namankamble/Projects/tree/main/Airline%20Customer%20Satisfaction%20Prediction'>Airline_Customer_Satisfaction_Prediction</a>
+
+---
+
 ### ***Optimize Power Consumption in Wellington, New Zealand***
 A detailed analysis of environmental and meteorological factors to optimize power consumption in Zone 1 of Wellington.
 - `Technologies:` Python, Pandas, Scikit-learn, XGBoost, Power BI
