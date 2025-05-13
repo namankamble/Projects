@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Satisfaction Prediction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .form-section {
+      padding: 40px;
+      border-radius: 12px;
+      background: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+    .form-title {
+      margin-bottom: 30px;
+    }
+    .text-center{
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <div class="form-section">
+      <h2 class="form-title text-center">Customer Satisfaction Prediction</h2>
+      <form id="predictionForm">
+        <div class="row g-3">
+          <!-- Basic Info -->
+          <div class="col-md-4">
+            <label class="form-label">Gender</label>
+            <select class="form-select" name="gender" required>
+              <option value="0">Female</option>
+              <option value="1">Male</option>
+            </select>
+          </div>
+
+          <div class="col-md-4">
+            <label class="form-label">Age</label>
+            <input type="number" class="form-control" name="age" min="1" max="100" required>
+          </div>
+
+          <div class="col-md-4">
+            <label class="form-label">Customer Type</label>
+            <select class="form-select" name="customer_type" required>
+              <option value="0">First-time</option>
+              <option value="1">Returning</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Type of Travel</label>
+            <select class="form-select" name="type_of_travel" required>
+              <option value="0">Business Travel</option>
+              <option value="1">Personal Travel</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Class</label>
+            <select class="form-select" name="class" required>
+              <option value="0">Economy</option>
+              <option value="1">Economy Plus</option>
+              <option value="2">Business</option>
+            </select>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">Flight Distance</label>
+            <input type="number" class="form-control" name="flight_distance" required>
+          </div>
+
+          <div class="col-md-3">
+            <label class="form-label">Departure Delay (mins)</label>
+            <input type="number" class="form-control" name="departure_delay" required>
+          </div>
+
+          <div class="col-md-3">
+            <label class="form-label">Arrival Delay (mins)</label>
+            <input type="number" class="form-control" name="arrival_delay" required>
+          </div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- Ratings -->
+        {% set ratings = [
+          ["departure_and_arrival_time_convenience", "Departure and Arrival Time Convenience"],
+          ["ease_of_online_booking", "Ease of Online Booking"],
+          ["check_in_service", "Check-in Service"],
+          ["online_boarding", "Online Boarding"],
+          ["gate_location", "Gate Location"],
+          ["on_board_service", "On-board Service"],
+          ["seat_comfort", "Seat Comfort"],
+          ["leg_room_service", "Leg Room Service"],
+          ["cleanliness", "Cleanliness"],
+          ["food_and_drink", "Food and Drink"],
+          ["in_flight_service", "In-flight Service"],
+          ["in_flight_wifi_service", "In-flight Wifi Service"],
+          ["in_flight_entertainment", "In-flight Entertainment"],
+          ["baggage_handling", "Baggage Handling"]
+        ] %}
+
+        <div class="row g-3">
+          {% for field, label in ratings %}
+            <div class="col-md-6">
+              <label class="form-label">{{ label }}</label>
+              <select class="form-select" name="{{ field }}" required>
+                <option value="0">0 - Not Applicable</option>
+                <option value="1">1 - Very Poor</option>
+                <option value="2">2 - Poor</option>
+                <option value="3">3 - Neutral</option>
+                <option value="4">4 - Good</option>
+                <option value="5">5 - Excellent</option>
+              </select>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="d-grid gap-2 mt-4">
+          <button type="submit" class="btn btn-primary btn-lg">Predict Satisfaction</button>
+        </div>
+      </form>
+
+      <div class="alert alert-info mt-4 d-none" id="predictionResult"></div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("predictionForm").addEventListener("submit", async function(event) {
+      event.preventDefault();
+
+      const form = event.target;
+      const formData = new FormData(form);
+      const jsonData = {};
+
+      formData.forEach((value, key) => {
+        jsonData[key] = isNaN(value) ? value : Number(value);
+      });
+
+      const response = await fetch("/predict", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(jsonData)
+      });
+
+      const resultDiv = document.getElementById("predictionResult");
+      const result = await response.json();
+
+      if (response.ok) {
+        resultDiv.classList.remove("d-none", "alert-danger");
+        resultDiv.classList.add("alert-success");
+        resultDiv.innerHTML = `<strong>Prediction:</strong> ${result.satisfaction}`;
+      } else {
+        resultDiv.classList.remove("d-none", "alert-success");
+        resultDiv.classList.add("alert-danger");
+        resultDiv.innerHTML = `<strong>Error:</strong> ${result.error}`;
+      }
+    });
+  </script>
+</body>
+</html>
