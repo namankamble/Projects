@@ -111,8 +111,7 @@ Airline Customer Satisfaction Prediction/
 
   <h2 style="color:#003366;">How to Run Locally</h2>
   <h4>1. Clone the Repository</h4>
-  <pre style="background-color:#eee; padding:10px; border-radius:5px;"><code>git clone
-cd airline-satisfaction-flask</code></pre>
+  <pre style="background-color:#eee; padding:10px; border-radius:5px;"><code>git clone "https://github.com/namankamble/Projects/tree/main/Airline%20Customer%20Satisfaction%20Prediction" </code></pre>
 
   <h4>2. Install Requirements</h4>
   <pre style="background-color:#eee; padding:10px; border-radius:5px;"><code>pip install -r requirements.txt</code></pre>
