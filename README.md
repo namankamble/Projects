@@ -8,6 +8,14 @@ Each project includes well-documented code, datasets, insights, and visualizatio
 
 ---
 
+### ***Bank Customer Churn Prediction***
+A predictive modeling project to identify potential customer churn based on demographic data, account activity, and transactional behavior. The model helps banks proactively target at-risk customers with effective retention strategies.
+- `Technologies:` Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Plotly, Flask, Html, CSS, JS
+- `Key Skills:` Classification Modeling, Feature Selection, Data Preprocessing, Model Evaluation, Insight Generation
+- `Project Link:` <a href='https://github.com/namankamble/Projects/tree/main/Bank%20Customer%20Churn%20Prediction'>Bank_Customer_Churn_Prediction</a>
+
+---
+
 ### ***Airline Customer Satisfaction Prediction***
 A machine learning project to analyze customer feedback and predict satisfaction levels based on inflight services, staff behavior, and overall flight experience.
 - `Technologies:` Python, Pandas, Plotly, Scikit-learn, XGBoost
