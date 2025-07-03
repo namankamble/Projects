@@ -24,7 +24,7 @@ A comprehensive business intelligence project focused on analyzing historical sa
    - Analysis of Shipping Modes, Durations, Discounts, and Payment Methods
    - Customer behavior insights for targeted marketing strategies
 - `Outcome:` Helped leadership make data-driven decisions by delivering an interactive Power BI report with drill-down capabilities, actionable KPIs, and insightful visuals.
-- `Project Link:` <a href='#'>GlobalMart_Sales_Performance_Analysis</a>
+- `Project Link:` <a href='https://github.com/namankamble/Projects/tree/main/GlobalMart%20Sales%20Performance%20Analysis'>GlobalMart_Sales_Performance_Analysis</a>
 
 ---
 
