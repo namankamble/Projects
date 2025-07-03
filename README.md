@@ -5,6 +5,26 @@ Each project includes well-documented code, datasets, insights, and visualizatio
 ***
 ***
 ## ***Project List***
+---
+
+### ***GlobalMart Sales Performance Analysis***
+A comprehensive business intelligence project focused on analyzing historical sales transactions to uncover actionable insights for profitability improvement, product optimization, customer segmentation, and operational efficiency using Power BI and Plotly.
+- `Technologies:` Python, Pandas, Plotly, Html, CSS, Power BI, DAX, Power Query, Excel
+- `Key Skills:` KPI Dashboards, Visual Analytics, Customer Segmentation, Profitability Analysis
+- `Business Objectives::`
+   - Improve overall profit margin by 5%
+   - Identify top & bottom product categories
+   - Optimize regional performance
+   - Segment customers based on sales & profit behavior
+   - Assess effectiveness of discounting and shipping strategies
+- `Key Deliverables::`
+   - Executive Summary Dashboard (Total Sales, Profit, Profit Margin)
+   - Sales & Profit breakdown by Region, Category, Product
+   - Top 10 Customers by Sales and Profit
+   - Analysis of Shipping Modes, Durations, Discounts, and Payment Methods
+   - Customer behavior insights for targeted marketing strategies
+- `Outcome:` Helped leadership make data-driven decisions by delivering an interactive Power BI report with drill-down capabilities, actionable KPIs, and insightful visuals.
+- `Project Link:` <a href='#'>GlobalMart_Sales_Performance_Analysis</a>
 
 ---
 
