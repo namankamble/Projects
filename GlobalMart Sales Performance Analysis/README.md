@@ -6,7 +6,7 @@ A Power BI business intelligence project analyzing historical sales data from **
 
 ## ***Business Objectives:***
 - Improve overall **profit margin by at least 5%** in the upcoming quarter.
-- 🛍 Identify **top 3 most profitable** and **bottom 3 least profitable** product categories.
+- Identify **top 3 most profitable** and **bottom 3 least profitable** product categories.
 - Analyze **sales and profit by region** to find underperforming areas and leverage top-performing ones.
 - Segment **customers based on sales contribution and profitability** for targeted marketing.
 - Evaluate **discount impact** on sales and profit to refine promotional strategies.
